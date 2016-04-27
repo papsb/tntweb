@@ -1,0 +1,16 @@
+{
+  "name": "papsb.com.my",
+  "version": "1.0.0",
+  "description": "PAPSB Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kuntau",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-livereload": "^3.1.1",
+    "gulp-serve": "^1.0.0"
+  }
+}
