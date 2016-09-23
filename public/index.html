@@ -1,4 +1,4 @@
-<html lang="en" ng-app="tntweb">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,10 +10,20 @@
     <!-- <link rel="stylesheet" href="css/style.css"> -->
   </head>
   <body>
-    <center class="container" ng-cloak>
-      <div class="col-md-3">
-        <img src="./images/logo-nadiputra-travel-tours.jpg" alt="Nadiputra Travel & Tours Logo" width="200px" />
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">NADIPUTRA TRAVEL</a>
+        </div>
+        <div class="nav navbar-nav">
+          <li><a href="#">Test Links</a></li>
+          <li><a href="#">Test Links</a></li>
+          <li><a href="#">Test Links</a></li>
+          <li><a href="#">Test Links</a></li>
+        </div>
       </div>
+    </nav>
+    <center class="fluid-container" ng-cloak>
       <div class="row">
         <div class="col-md-12">
           <!-- <img src="./images/logo&#45;nadiputra&#45;travel&#45;tours.jpg" alt="Nadiputra Travel &#38; Tours Logo" width="100px" class="img&#45;responsive"> -->
@@ -39,5 +49,20 @@
         </div> <!-- end mid col-md-12 -->
       </div> <!-- end row -->
     </center>
+  <!-- vendor script -->
+  <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="libs/angular/angular.min.js"></script>
+  <script type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="libs/bxslider-4/dist/jquery.bxslider.min.js"></script>
+  <!-- end vendor script -->
+  <!-- dev:start -->
+    <script>
+      var url = '<script src=\"http:\/\/'
+              + window.location.hostname
+              + ':35729\/livereload.js?snipver=1\"><\/script>';
+      document.write(url);
+    </script>
+  <!-- dev:end -->
   </body>
 </html>
