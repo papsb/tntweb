@@ -7,48 +7,127 @@
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="libs/bxslider-4/dist/jquery.bxslider.css">
+    <style>
+      body {
+        font: 1.3em/1.65em "Open Sans", sans-serif;
+        color: #fff
+      }
+      h2 {
+        color: #fff;
+        padding-bottom: 5px;
+        border-bottom: 1px #fff dashed;
+      }
+      #top-info {
+        background: #2b2b2b;
+        color: #fff;
+        padding: 5px 0 5px 0;
+        font: .8em Roboto, sans-serif;
+      }
+      #nav-bg {
+        /* position: fixed; */
+      }
+      .navbar {
+        /* background: url(./images/putrajaya-header-big.jpg) rgba(255,255,255,.3); */
+        background: rgba(255,255,255,.3);
+        border: none;
+        min-height: 60px;
+      }
+      .navbar-brand {
+        height: 60px;
+        padding: 5px;
+      }
+      .navbar-fixed-top {
+        top: 25px;
+        min-height: 60px;
+      }
+      .orange {
+        color: #dd3e1d;
+      }
+      .promo {
+        background: #eaa733;
+        min-height: 300px;
+      }
+      .ticketing {
+        background: #1d3db5;
+        min-height: 300px;
+      }
+      .packages {
+        background: #9921d2;
+        min-height: 300px;
+      }
+    </style>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="">NADIPUTRA TRAVEL</a>
+    <div id="top-info">
+      <div class="container">
+        <div class="pull-right">
+          <i class="fa fa-envelope orange"></i> E-mail: enquiry@nadiputratravel.com.my &nbsp;&nbsp;<i class="fa fa-phone orange"></i> Hotline : +6019 390 4732
         </div>
-        <div class="nav navbar-nav">
-          <li><a href="#">Test Links</a></li>
-          <li><a href="#">Test Links</a></li>
-          <li><a href="#">Test Links</a></li>
-          <li><a href="#">Test Links</a></li>
+      </div>
+    </div>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="./images/logo-tnt-minimum.png" height="50px"></a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">TOURS</a></li>
+          <li><a href="#">CONTACTS</a></li>
         </div>
       </div>
     </nav>
-    <center class="fluid-container" ng-cloak>
-      <div class="row">
-        <div class="col-md-12">
-          <!-- <img src="./images/logo&#45;nadiputra&#45;travel&#45;tours.jpg" alt="Nadiputra Travel &#38; Tours Logo" width="100px" class="img&#45;responsive"> -->
-          <div class="col-md-3">
-            <div class="nav-sidebar">
-              <!-- fa fa-caret-right -->
-              <ul class="nav nav-pills nav-stacked">
-                <li ui-sref-active="active"><a ui-sref=".about-us"><i class="fa fa-caret-right">&nbsp;</i> About Us</a></li>
-                <li ui-sref-active="active"><a ui-sref=".visi"><i class="fa fa-caret-right">&nbsp;</i> Who We Are</a></li>
-                <li ui-sref-active="active"><a ui-sref=".pengarah"><i class="fa fa-caret-right">&nbsp;</i> Our Team</a></li>
-                <li ui-sref-active="active"><a ui-sref=".carta"><i class="fa fa-caret-right">&nbsp;</i> Our Core Values</a></li>
-              </ul>
-            </div> <!-- end nav-sidebar -->
-          </div> <!-- end sidebar -->
-          <div class="col-md-9">
-            <div class="page-header">
-              <h1>
-                Welcome to future the home of Nadiputra Travel & Tours<br />
-                <small>Come back later while we are brewing the best content for you</small>
-              <h1>
-            </div>
-          </div> <!-- end content -->
-        </div> <!-- end mid col-md-12 -->
-      </div> <!-- end row -->
-    </center>
+    <img id="nav-bg" src="./images/putrajaya-header-big.jpg" alt="Nadiputra Travel & Tours Logo" class="img-responsive">
+    <div class="promo">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-md-12">PROMOTIONS</h2>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+        </div>
+      </div>
+    </div> <!-- end promo -->
+    <div class="ticketing">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-md-12">TICKETING</h2>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+        </div>
+      </div>
+    </div> <!-- end ticketing -->
+    <div class="packages">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-md-12">PACKAGES</h2>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+          <div class="col-md-4">
+            Consectetur rutrum blandit fusce cubilia tristique eu parturient aliquet feugiat quisque interdum et nunc euismod adipiscing ac. Orci sem suspendisse nisi leo suspendisse a nec quisque diam quam aenean leo a ultricies vestibulum dis adipiscing phasellus eu consectetur nisl lobortis dictumst parturient porta vitae in. Tristique a egestas tempus facilisis ridiculus id lacus.
+          </div>
+        </div>
+      </div>
+    </div> <!-- end packages -->
   <!-- vendor script -->
   <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="libs/angular/angular.min.js"></script>
